@@ -1,7 +1,7 @@
-# DREAMChunk Kinetix
+# DREAM-Chunk Kinetix
 
-"DREAM-Chunk: Reactive Action Chunking with Latent World Model"
-[ArXiv](https://arxiv.org/pdf/2606.18589). [Project website](https://wenxichen2746.github.io/DREAM-Chunk/)
+## DREAM-Chunk: Reactive Action Chunking with Latent World Model
+[ArXiv](https://arxiv.org/pdf/2606.18589) | [Project website](https://wenxichen2746.github.io/DREAM-Chunk/)
 
 
 Authors: [Wenxi Chen](https://www.linkedin.com/in/wenxi-chen/), [Kaidi Zhang](https://www.purduemars.com/people), [Chi Lin](https://www.linkedin.com/in/archerlin0530/), [Zhiyuan Zhang](https://zhangzhiyuanzhang.github.io/personal_website/), [Yu She](https://www.purduemars.com/people), [Yuejiang Liu](https://lema-nus.github.io), [Raymond A. Yeh](https://raymond-yeh.com/), [Shaoshuai Mou](https://engineering.purdue.edu/AIMS), and [Yan Gu](https://www.thetracelab.com/ygu.html).
@@ -47,4 +47,18 @@ The main experiment pipeline is implemented in `workflow.sh` and has five stages
 
 ## World Model Ablations
 `src/train_lewm.py` and `src/train_ebjepa.py` train two deterministic JEPA world model variants. The ablation workflow in `wmablation_workflow.sh` trains and evaluates the RSSM, LeWM, and EB-JEPA variants using `src/eval_flow_wm.py`; pass `--wm-type rssm`, `--wm-type lewm`, or `--wm-type ebjepa` to select the matching checkpoint architecture during evaluation. For random_switch baseline, set random_switch=True in DreamChunkConfig under eval_flow_wm.py.
-  
+
+## Citation
+
+```bibtex
+@misc{chen2026dreamchunk,
+  title={DREAM-Chunk: Reactive Action Chunking with Latent World Model},
+  author={Chen, Wenxi and Zhang, Kaidi and Lin, Chi and Zhang, Zhiyuan and She, Yu and Liu, Yuejiang and Yeh, Raymond A. and Mou, Shaoshuai and Gu, Yan},
+  year={2026},
+  eprint={2606.18589},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  doi={10.48550/arXiv.2606.18589},
+  url={https://arxiv.org/abs/2606.18589}
+}
+```
