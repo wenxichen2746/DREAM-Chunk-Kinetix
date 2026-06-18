@@ -51,14 +51,10 @@ The main experiment pipeline is implemented in `workflow.sh` and has five stages
 ## Citation
 
 ```bibtex
-@misc{chen2026dreamchunk,
-  title={DREAM-Chunk: Reactive Action Chunking with Latent World Model},
-  author={Chen, Wenxi and Zhang, Kaidi and Lin, Chi and Zhang, Zhiyuan and She, Yu and Liu, Yuejiang and Yeh, Raymond A. and Mou, Shaoshuai and Gu, Yan},
-  year={2026},
-  eprint={2606.18589},
-  archivePrefix={arXiv},
-  primaryClass={cs.RO},
-  doi={10.48550/arXiv.2606.18589},
-  url={https://arxiv.org/abs/2606.18589}
+@article{chen2026dreamchunk,
+title={{{DREAM-Chunk}: Reactive Action Chunking with Latent World Model}},
+author={Chen, Wenxi and Zhang, Kaidi and Lin, Chi and Zhang, Zhiyuan and She, Yu and Liu, Yuejiang and Yeh, Raymond A. and Mou, Shaoshuai and Gu, Yan},
+journal={arXiv preprint arXiv:2606.18589},
+year={2026}
 }
 ```
