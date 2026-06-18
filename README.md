@@ -1,8 +1,13 @@
 # DREAMChunk Kinetix
 
-Code for the Kinetix experiments in [DREAM-Chunk: Reactive Action Chunking with Latent World Model](https://arxiv.org/pdf/2606.18589).
+"DREAM-Chunk: Reactive Action Chunking with Latent World Model"
+[ArXiv](https://arxiv.org/pdf/2606.18589). [Project website](https://wenxichen2746.github.io/DREAM-Chunk/)
+
 
 Authors: [Wenxi Chen](https://www.linkedin.com/in/wenxi-chen/), [Kaidi Zhang](https://www.purduemars.com/people), [Chi Lin](https://www.linkedin.com/in/archerlin0530/), [Zhiyuan Zhang](https://zhangzhiyuanzhang.github.io/personal_website/), [Yu She](https://www.purduemars.com/people), [Yuejiang Liu](https://lema-nus.github.io), [Raymond A. Yeh](https://raymond-yeh.com/), [Shaoshuai Mou](https://engineering.purdue.edu/AIMS), and [Yan Gu](https://www.thetracelab.com/ygu.html).
+
+This repository implements the Kinetix simulation in DREAM-Chunk experiments built on the [Real-Time Action Chunking (RTC)](https://github.com/Physical-Intelligence/real-time-chunking-kinetix)'s framework.
+
 
 ## Installation
 
