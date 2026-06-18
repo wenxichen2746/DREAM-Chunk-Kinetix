@@ -1,6 +1,6 @@
 # DREAMChunk Kinetix
 
-Code for the Kinetix experiments in [DREAM-Chunk: Improve Reactivity of Open-loop Action Chunking with Latent World Model](https://arxiv.org/pdf/2606.18589).
+Code for the Kinetix experiments in [DREAM-Chunk: Reactive Action Chunking with Latent World Model](https://arxiv.org/pdf/2606.18589).
 
 Authors: [Wenxi Chen](https://www.linkedin.com/in/wenxi-chen/), [Kaidi Zhang](https://www.purduemars.com/people), [Chi Lin](https://www.linkedin.com/in/archerlin0530/), [Zhiyuan Zhang](https://zhangzhiyuanzhang.github.io/personal_website/), [Yu She](https://www.purduemars.com/people), [Yuejiang Liu](https://lema-nus.github.io), [Raymond A. Yeh](https://raymond-yeh.com/), [Shaoshuai Mou](https://engineering.purdue.edu/AIMS), and [Yan Gu](https://www.thetracelab.com/ygu.html).
 
